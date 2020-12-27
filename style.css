@@ -1,0 +1,239 @@
+body{
+    font-family: Arial,sans-serif;
+    margin: 0;
+}
+
+.main-header{
+    background: white url("image/image5.jpeg") no-repeat scroll center;
+    color: white;
+    text-align: right;
+    padding: 13px;
+    font-family: Algerian;
+}
+.main-nav{
+    background: linear-gradient(60deg,black,gray);
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+
+}
+.main-nav a{
+    color:white;
+    text-decoration: none;
+    padding: 6px;
+    display: inline-block;
+}
+.main-nav a:hover{
+    background: linear-gradient(60deg,black,silver,black,lavender,black);
+    box-shadow: 0 0 10px gray;
+}
+.main-nav a.active{
+    background: linear-gradient(45deg,pink,red,black,red);
+    box-shadow: 0 0 10px red;
+}
+.home-article-section{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.home-article{
+    border: 2px solid darkred;
+    width:330px;
+    padding: 5px;
+    height:500px;
+    text-align: center;
+    border-top-left-radius:30px;
+    border-bottom-right-radius: 30px;
+    margin: 15px;
+    display: inline-grid;
+    transition: all 0.5s;
+
+
+}
+.home-article img{
+    width:100%;
+}
+.home-article h2{
+    color:darkred;
+}
+.home-article:hover{
+    box-shadow: 0 0 10px darkred;
+    width:340px;
+    cursor: pointer;
+}
+/*------------news section--------*/
+.main-section{
+    width: 1100px;
+    margin: auto;
+
+}
+
+.news-article h2{
+
+    text-align: center;
+    background: linear-gradient(60deg,navy,black,navy);
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px darkred;
+    margin-left:150px;
+    margin-right:150px;
+    color: white;
+
+}
+.news-article p{
+    text-align: center;
+    font-size: 18px;
+    color: lightcoral;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.news-zoom{
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px darkred;
+    overflow: hidden;
+    margin-top: 10px;
+
+
+}
+.news-zoom img{
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    box-shadow: 0 0 10px darkred;
+    transition: all 0.5s;
+}
+.news-zoom img:hover {
+    transform: scale(1.2,1.2);
+}
+footer{
+    background: linear-gradient(45deg,navy,black,navy);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+/*-----------------------------gallery Section-------------------*/
+
+.gallary-section{
+
+    margin: auto;
+    text-align: center;
+}
+.gallary-fig {
+    border: 2px solid darkred;
+    width: 300px;
+    margin: 5px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+}
+.gallary-fig:hover{
+    box-shadow: 0 0 10px red;
+}
+.image-zoom {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.image-zoom img{
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.image-zoom:hover img{
+    transition: all 0.5s;
+    transform: scale(1.1,1.1);
+}
+/*--------------Main About-----------------*/
+
+.main-about{
+    width:1100px;
+    margin:auto;
+}
+.about-para{
+    border:2px solid darkred;
+    margin:15px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+    background-color: rgba(0 ,0,0,0.9);
+    color: white;
+
+}
+.about-image{
+    text-align: center;
+}
+.about-image img{
+    width:250px;
+    height:150px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 5px;
+    box-shadow: 0 0 5px darkblue;
+}
+.contact-section{
+    background: white url("image/image5.jpeg")no-repeat bottom;
+    padding: 15px;
+}
+.contact-article{
+    text-align: center;
+    width:250px;
+    margin: auto;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px black;
+
+}
+.contact-article h2{
+    color:white;
+}
+.input-field{
+    margin:5px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom:2px solid #706255;
+    color:white;
+    height: 35px;
+    text-align: center;
+    font-size: 18px;
+
+}
+.input-field:focus{
+    border-bottom: 3px solid #dac9b2;
+}
+textarea{
+    border: 3px solid #514640;
+    outline: none;
+    background: transparent;
+    margin: 5px;
+    border-radius: 10px;
+    width: 180px;
+}
+::placeholder{
+    color: lightgray;
+}
+textarea:focus{
+    border:3px solid  #bca487;
+}
+#submit-btn{
+    background-color: #514640;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 10px 50px;
+    box-shadow: 0 0 10px black;
+    border-radius: 50px;
+    margin: 10px;
+    outline: none;
+}
+#submit-btn:hover{
+    background-color: #bca487;
+    color: black;
+    cursor: pointer;
+}
